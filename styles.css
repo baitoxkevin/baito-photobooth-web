@@ -183,6 +183,21 @@ footer {
     margin-top: 20px;
 }
 
+footer .copyright {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 /* Modal for full-screen view */
 .modal {
     display: none;
